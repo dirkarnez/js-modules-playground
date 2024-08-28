@@ -1,7 +1,9 @@
-js-modules-playground
-=====================
-- [Module 的載入實現 · 阮一峰：ECMAScript 6 入門（OpenCC 繁體中文版）](https://yucj.gitbooks.io/ecmascript-6/content/docs/module-loader.html)
+[js-modules-playground](https://dirkarnez.github.io/js-modules-playground)
+==========================================================================
 
+### Tutorials
+- [Module 的載入實現 · 阮一峰：ECMAScript 6 入門（OpenCC 繁體中文版）](https://yucj.gitbooks.io/ecmascript-6/content/docs/module-loader.html)
+- [模块 (Module) 简介](https://zh.javascript.info/modules-intro)
 
 ### Notes
 - `<script type="module">` is by default defer (aka non-blocking)
