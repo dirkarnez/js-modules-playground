@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <script type="module">
+        // eager-loading
+        import sum from "./sum.js";
+        console.log(sum(1, 2));
+
+        // lazy-loading
+        import("./multiply.js")
+        .then(multiply => {
+            console.log(multiply.default(8, 9));
+        })
+    </script>
+</body>
+</html>
